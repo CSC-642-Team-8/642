@@ -2,4 +2,4 @@ Super Spork is a food delivery and ordering app designed by Team 8 in the SFSU C
 
 Team Members: Amanda Robinson, Jasmine Mann, Simon Tan, Flavy Tonfack
 
-test
+Super Spork provides recommended meal sets and allows users to place concurrent order.
