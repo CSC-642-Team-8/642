@@ -15,9 +15,6 @@ class HomepageViewController: UIViewController, UICollectionViewDataSource, UICo
     @IBOutlet weak var cuisineImageCollectionView: UICollectionView!
     @IBOutlet weak var restaurantImageCollectionView: UICollectionView!
     
-//    var cuisineImagesArray = [UIImage(named: "Italian"),UIImage(named: "Japanese"),UIImage(named: "Mexican"),UIImage(named: "American"),UIImage(named: "Thai")]
-//    var cuisineTextArray = ["Italian", "Japanese", "Mexican", "American", "Thai"]
-    
     var cuisineImagesArray = [UIImage(named: "Italian"),UIImage(named: "Japanese"),UIImage(named: "Mexican"),UIImage(named: "American"),UIImage(named: "Thai")]
     var cuisineTextArray = ["Italian", "Japanese", "Mexican", "American", "Thai"]
     
@@ -31,8 +28,7 @@ class HomepageViewController: UIViewController, UICollectionViewDataSource, UICo
         
         cuisineImageCollectionView.delegate = self
         cuisineImageCollectionView.dataSource = self
-      
-        setupMenuBar()
+
     }
     
 //    override func didReceiveMemoryWarning() {
@@ -66,11 +62,6 @@ class HomepageViewController: UIViewController, UICollectionViewDataSource, UICo
         
         
     }
-    
-    func setupMenuBar(){
-        
-    }
-    
     
 }
 

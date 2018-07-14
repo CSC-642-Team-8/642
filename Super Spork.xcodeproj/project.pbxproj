@@ -20,6 +20,8 @@
 		37C882A420F318DF0044F887 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A320F318DF0044F887 /* RatingControl.swift */; };
 		37C882A620F3E4BE0044F887 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */; };
 		37C882A820F3E52B0044F887 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A720F3E52B0044F887 /* Result.swift */; };
+		37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A920F69B8E0044F887 /* RestaurantViewController.swift */; };
+		37C882AE20F6A2CC0044F887 /* RecMealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882AD20F6A2CC0044F887 /* RecMealCollectionViewCell.swift */; };
 		37CDBDBF20EAF35A002B7B9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37CDBDBE20EAF35A002B7B9D /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		37C882A320F318DF0044F887 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		37C882A720F3E52B0044F887 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		37C882A920F69B8E0044F887 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		37C882AD20F6A2CC0044F887 /* RecMealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecMealCollectionViewCell.swift; sourceTree = "<group>"; };
 		37CDBDBE20EAF35A002B7B9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,12 +118,14 @@
 			children = (
 				3708711F20EAE8630002F4D4 /* AppDelegate.swift */,
 				3708712120EAE8630002F4D4 /* HomepageViewController.swift */,
+				37C882A920F69B8E0044F887 /* RestaurantViewController.swift */,
 				3708712320EAE8630002F4D4 /* Main.storyboard */,
 				37C882A320F318DF0044F887 /* RatingControl.swift */,
 				37C882A120F316B30044F887 /* ResultsTableViewCell.swift */,
 				37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */,
 				37C882A720F3E52B0044F887 /* Result.swift */,
 				37C8829D20F2D9310044F887 /* CuisineImageCollectionViewCell.swift */,
+				37C882AD20F6A2CC0044F887 /* RecMealCollectionViewCell.swift */,
 				3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */,
 				3708712620EAE8650002F4D4 /* Assets.xcassets */,
 				3708712820EAE8650002F4D4 /* LaunchScreen.storyboard */,
@@ -282,9 +288,11 @@
 				37C882A620F3E4BE0044F887 /* ResultsTableViewController.swift in Sources */,
 				3708712020EAE8630002F4D4 /* AppDelegate.swift in Sources */,
 				37C8829E20F2D9310044F887 /* CuisineImageCollectionViewCell.swift in Sources */,
+				37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */,
 				37C882A820F3E52B0044F887 /* Result.swift in Sources */,
 				3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */,
 				37C882A420F318DF0044F887 /* RatingControl.swift in Sources */,
+				37C882AE20F6A2CC0044F887 /* RecMealCollectionViewCell.swift in Sources */,
 				37C882A220F316B30044F887 /* ResultsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
