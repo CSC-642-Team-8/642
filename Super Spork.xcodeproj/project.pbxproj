@@ -14,7 +14,7 @@
 		3708713520EAE8650002F4D4 /* Super_SporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713420EAE8650002F4D4 /* Super_SporkTests.swift */; };
 		3708714020EAE8650002F4D4 /* Super_SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */; };
 		37CDBDBF20EAF35A002B7B9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37CDBDBE20EAF35A002B7B9D /* README.md */; };
-		DC7A13B220FD5C330059199B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7A13B120FD5C330059199B /* Storyboard.storyboard */; };
+		DC0EC02C20FD8C2F004C3BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0EC02B20FD8C2F004C3BE1 /* Main.storyboard */; };
 		DCBE9D1F20F9EEB300AAF9FF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9D1E20F9EEB300AAF9FF /* IntroViewController.swift */; };
 		DCBE9D2520FA063F00AAF9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBE9D2420FA063F00AAF9FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_SporkUITests.swift; sourceTree = "<group>"; };
 		3708714120EAE8650002F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37CDBDBE20EAF35A002B7B9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DC7A13B120FD5C330059199B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DC0EC02B20FD8C2F004C3BE1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DCBE9D1E20F9EEB300AAF9FF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		DCBE9D2420FA063F00AAF9FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,11 +104,11 @@
 		3708711E20EAE8630002F4D4 /* Super Spork */ = {
 			isa = PBXGroup;
 			children = (
+				DC0EC02B20FD8C2F004C3BE1 /* Main.storyboard */,
 				DCBE9D1E20F9EEB300AAF9FF /* IntroViewController.swift */,
 				3708711F20EAE8630002F4D4 /* AppDelegate.swift */,
 				3708712120EAE8630002F4D4 /* ViewController.swift */,
 				3708712320EAE8630002F4D4 /* Intro.storyboard */,
-				DC7A13B120FD5C330059199B /* Storyboard.storyboard */,
 				3708712620EAE8650002F4D4 /* Assets.xcassets */,
 				3708712B20EAE8650002F4D4 /* Info.plist */,
 				DCBE9D2420FA063F00AAF9FF /* LaunchScreen.storyboard */,
@@ -239,10 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3708712720EAE8650002F4D4 /* Assets.xcassets in Resources */,
+				DC0EC02C20FD8C2F004C3BE1 /* Main.storyboard in Resources */,
 				37CDBDBF20EAF35A002B7B9D /* README.md in Resources */,
 				3708712520EAE8630002F4D4 /* Intro.storyboard in Resources */,
 				DCBE9D2520FA063F00AAF9FF /* LaunchScreen.storyboard in Resources */,
-				DC7A13B220FD5C330059199B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
