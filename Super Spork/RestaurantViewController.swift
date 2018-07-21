@@ -15,7 +15,7 @@ class RestaurantViewController: UIViewController, UICollectionViewDataSource, UI
     @IBOutlet weak var recMealCollectionView: UICollectionView!
     
     var recMealImagesArray = [UIImage(named: "recmeal1"),UIImage(named: "recmeal2"),UIImage(named: "recmeal3"),UIImage(named: "recmeal4"),UIImage(named: "recmeal5")]
-    var recMealTextArray = ["Meal 1", "Meal 2", "Meal 3", "Meal 4", "Meal 5"]
+    var recMealTextArray = ["Meal Set 1", "Meal Set 2", "Meal Set 3", "Meal Set 4", "Meal Set 5"]
     
     var recMealCheckboxArray = [UIImage(named: "checked box"),UIImage(named: "unchecked box"),UIImage(named: "unchecked box"),UIImage(named: "unchecked box"),UIImage(named: "unchecked box")]
     

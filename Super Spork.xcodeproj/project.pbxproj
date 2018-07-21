@@ -15,9 +15,11 @@
 		3708713520EAE8650002F4D4 /* Super_SporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713420EAE8650002F4D4 /* Super_SporkTests.swift */; };
 		3708714020EAE8650002F4D4 /* Super_SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */; };
 		3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */; };
+		37A77DFF210388D500F36E56 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77DFE210388D500F36E56 /* SearchResult.swift */; };
+		37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */; };
+		37A77E0321038BB500F36E56 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */; };
 		37C8829E20F2D9310044F887 /* CuisineImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8829D20F2D9310044F887 /* CuisineImageCollectionViewCell.swift */; };
 		37C882A220F316B30044F887 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A120F316B30044F887 /* ResultsTableViewCell.swift */; };
-		37C882A420F318DF0044F887 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A320F318DF0044F887 /* RatingControl.swift */; };
 		37C882A620F3E4BE0044F887 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */; };
 		37C882A820F3E52B0044F887 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A720F3E52B0044F887 /* Result.swift */; };
 		37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C882A920F69B8E0044F887 /* RestaurantViewController.swift */; };
@@ -57,9 +59,11 @@
 		3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_SporkUITests.swift; sourceTree = "<group>"; };
 		3708714120EAE8650002F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		37A77DFE210388D500F36E56 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsCollectionViewCell.swift; sourceTree = "<group>"; };
+		37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		37C8829D20F2D9310044F887 /* CuisineImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		37C882A120F316B30044F887 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
-		37C882A320F318DF0044F887 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		37C882A720F3E52B0044F887 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		37C882A920F69B8E0044F887 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
@@ -117,16 +121,18 @@
 			isa = PBXGroup;
 			children = (
 				3708711F20EAE8630002F4D4 /* AppDelegate.swift */,
+				37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */,
 				3708712120EAE8630002F4D4 /* HomepageViewController.swift */,
 				37C882A920F69B8E0044F887 /* RestaurantViewController.swift */,
 				3708712320EAE8630002F4D4 /* Main.storyboard */,
-				37C882A320F318DF0044F887 /* RatingControl.swift */,
 				37C882A120F316B30044F887 /* ResultsTableViewCell.swift */,
 				37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */,
 				37C882A720F3E52B0044F887 /* Result.swift */,
+				37A77DFE210388D500F36E56 /* SearchResult.swift */,
 				37C8829D20F2D9310044F887 /* CuisineImageCollectionViewCell.swift */,
 				37C882AD20F6A2CC0044F887 /* RecMealCollectionViewCell.swift */,
 				3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */,
+				37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */,
 				3708712620EAE8650002F4D4 /* Assets.xcassets */,
 				3708712820EAE8650002F4D4 /* LaunchScreen.storyboard */,
 				3708712B20EAE8650002F4D4 /* Info.plist */,
@@ -285,14 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3708712220EAE8630002F4D4 /* HomepageViewController.swift in Sources */,
+				37A77E0321038BB500F36E56 /* SearchResultsViewController.swift in Sources */,
 				37C882A620F3E4BE0044F887 /* ResultsTableViewController.swift in Sources */,
 				3708712020EAE8630002F4D4 /* AppDelegate.swift in Sources */,
+				37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */,
 				37C8829E20F2D9310044F887 /* CuisineImageCollectionViewCell.swift in Sources */,
 				37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */,
 				37C882A820F3E52B0044F887 /* Result.swift in Sources */,
 				3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */,
-				37C882A420F318DF0044F887 /* RatingControl.swift in Sources */,
 				37C882AE20F6A2CC0044F887 /* RecMealCollectionViewCell.swift in Sources */,
+				37A77DFF210388D500F36E56 /* SearchResult.swift in Sources */,
 				37C882A220F316B30044F887 /* ResultsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

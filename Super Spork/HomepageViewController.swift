@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomepageViewController.swift
 //  Super Spork
 //
 //  Created by Amanda Robinson on 7/2/18.
