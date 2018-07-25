@@ -1,16 +1,16 @@
 //
-//  SearchResultsViewController.swift
+//  JapaneseSearchResultsViewController.swift
 //  Super Spork
 //
-//  Created by Amanda Robinson on 7/21/18.
+//  Created by Amanda Robinson on 7/25/18.
 //  Copyright © 2018 Amanda Robinson. All rights reserved.
 //
 
 import UIKit
 
-class SearchResultsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-
-   
+class JapaneseSearchResultsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    
     @IBOutlet weak var searchResultsCollectionView: UICollectionView!
     
     var restaurantImagesArray = [UIImage(named: "food3"),UIImage(named: "searchResult1"),UIImage(named: "searchResult2"),UIImage(named: "searchResult3"),UIImage(named: "searchResult4"),UIImage(named: "searchResult5")]
@@ -22,11 +22,11 @@ class SearchResultsViewController: UIViewController, UICollectionViewDataSource,
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         searchResultsCollectionView.dataSource = self
         searchResultsCollectionView.delegate = self
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,15 +52,15 @@ class SearchResultsViewController: UIViewController, UICollectionViewDataSource,
         return cell
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

@@ -15,11 +15,11 @@ class HomepageViewController: UIViewController, UICollectionViewDataSource, UICo
     @IBOutlet weak var cuisineImageCollectionView: UICollectionView!
     @IBOutlet weak var restaurantImageCollectionView: UICollectionView!
     
-    var cuisineImagesArray = [UIImage(named: "Japanese"),UIImage(named: "Italian"),UIImage(named: "Mexican"),UIImage(named: "American"),UIImage(named: "Thai")]
-    var cuisineTextArray = ["Japanese", "Italian", "Mexican", "American", "Thai"]
+    var cuisineImagesArray = [UIImage(named: "Italian"),UIImage(named: "Japanese"),UIImage(named: "Mexican"),UIImage(named: "American"),UIImage(named: "Thai")]
+    var cuisineTextArray = ["Italian", "Japanese", "Mexican", "American", "Thai"]
     
     var restaurantImagesArray = [UIImage(named: "food4"),UIImage(named: "food1"),UIImage(named: "food2"),UIImage(named: "food5"),UIImage(named: "food3")]
-    var restaurantTextArray = ["Home", "Oakland Grill", "La Jolie", "Angry Fish", "Mirabella"]
+    var restaurantTextArray = ["Wine Not", "Oakland Grill", "La Jolie", "Angry Fish", "Mirabella"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
