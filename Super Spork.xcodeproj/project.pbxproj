@@ -15,6 +15,8 @@
 		3708713520EAE8650002F4D4 /* Super_SporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713420EAE8650002F4D4 /* Super_SporkTests.swift */; };
 		3708714020EAE8650002F4D4 /* Super_SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */; };
 		3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */; };
+		375A855D2106AFE800085632 /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 375A855C2106AFE800085632 /* Righteous-Regular.ttf */; };
+		375A855F2107018500085632 /* SpaghettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A855E2107018500085632 /* SpaghettiViewController.swift */; };
 		37A77DFF210388D500F36E56 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77DFE210388D500F36E56 /* SearchResult.swift */; };
 		37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */; };
 		37A77E0321038BB500F36E56 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */; };
@@ -59,6 +61,8 @@
 		3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_SporkUITests.swift; sourceTree = "<group>"; };
 		3708714120EAE8650002F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		375A855C2106AFE800085632 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Righteous-Regular.ttf"; sourceTree = "<group>"; };
+		375A855E2107018500085632 /* SpaghettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaghettiViewController.swift; sourceTree = "<group>"; };
 		37A77DFE210388D500F36E56 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsCollectionViewCell.swift; sourceTree = "<group>"; };
 		37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
@@ -120,11 +124,13 @@
 		3708711E20EAE8630002F4D4 /* Super Spork */ = {
 			isa = PBXGroup;
 			children = (
+				375A855B2106AFCC00085632 /* fonts */,
 				3708711F20EAE8630002F4D4 /* AppDelegate.swift */,
 				37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */,
 				3708712120EAE8630002F4D4 /* HomepageViewController.swift */,
 				37C882A920F69B8E0044F887 /* RestaurantViewController.swift */,
 				3708712320EAE8630002F4D4 /* Main.storyboard */,
+				375A855E2107018500085632 /* SpaghettiViewController.swift */,
 				37C882A120F316B30044F887 /* ResultsTableViewCell.swift */,
 				37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */,
 				37C882A720F3E52B0044F887 /* Result.swift */,
@@ -156,6 +162,14 @@
 				3708714120EAE8650002F4D4 /* Info.plist */,
 			);
 			path = "Super SporkUITests";
+			sourceTree = "<group>";
+		};
+		375A855B2106AFCC00085632 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				375A855C2106AFE800085632 /* Righteous-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,7 @@
 			files = (
 				3708712A20EAE8650002F4D4 /* LaunchScreen.storyboard in Resources */,
 				3708712720EAE8650002F4D4 /* Assets.xcassets in Resources */,
+				375A855D2106AFE800085632 /* Righteous-Regular.ttf in Resources */,
 				37CDBDBF20EAF35A002B7B9D /* README.md in Resources */,
 				3708712520EAE8630002F4D4 /* Main.storyboard in Resources */,
 			);
@@ -296,6 +311,7 @@
 				3708712020EAE8630002F4D4 /* AppDelegate.swift in Sources */,
 				37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */,
 				37C8829E20F2D9310044F887 /* CuisineImageCollectionViewCell.swift in Sources */,
+				375A855F2107018500085632 /* SpaghettiViewController.swift in Sources */,
 				37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */,
 				37C882A820F3E52B0044F887 /* Result.swift in Sources */,
 				3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */,

@@ -12,10 +12,10 @@ class SearchResult{
     var restaurantName: String
     var restaurantImage: UIImage?
     var cuisineType: String
-    var rating: String
+    var rating: UIImage?
     var deliveryTime: String
     
-    init?(restaurantName:String, restaurantImage: UIImage?, cuisineType: String, rating:String, deliveryTime: String) {
+    init?(restaurantName:String, restaurantImage: UIImage?, cuisineType: String, rating:UIImage?, deliveryTime: String) {
         self.restaurantName = restaurantName
         self.restaurantImage = restaurantImage
         self.cuisineType = cuisineType
@@ -29,11 +29,6 @@ class SearchResult{
         guard !cuisineType.isEmpty else {
             return nil
         }
-        
-        guard !rating.isEmpty else {
-            return nil
-        }
-        
         guard !deliveryTime.isEmpty else {
             return nil
         }

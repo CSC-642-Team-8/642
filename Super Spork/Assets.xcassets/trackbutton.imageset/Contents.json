@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "trackbutton.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "TrackOrderButton.png",
       "scale" : "2x"
     },
     {
