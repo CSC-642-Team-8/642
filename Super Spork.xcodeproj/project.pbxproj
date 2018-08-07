@@ -16,7 +16,8 @@
 		3708714020EAE8650002F4D4 /* Super_SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708713F20EAE8650002F4D4 /* Super_SporkUITests.swift */; };
 		3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */; };
 		375A855D2106AFE800085632 /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 375A855C2106AFE800085632 /* Righteous-Regular.ttf */; };
-		375A855F2107018500085632 /* SpaghettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A855E2107018500085632 /* SpaghettiViewController.swift */; };
+		377195F22116300D00BE35C2 /* RecBeverageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377195F12116300D00BE35C2 /* RecBeverageCollectionViewCell.swift */; };
+		377195F42116305400BE35C2 /* WineNotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377195F32116305400BE35C2 /* WineNotViewController.swift */; };
 		37A77DFF210388D500F36E56 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77DFE210388D500F36E56 /* SearchResult.swift */; };
 		37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */; };
 		37A77E0321038BB500F36E56 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */; };
@@ -62,7 +63,8 @@
 		3708714120EAE8650002F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		375A855C2106AFE800085632 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Righteous-Regular.ttf"; sourceTree = "<group>"; };
-		375A855E2107018500085632 /* SpaghettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaghettiViewController.swift; sourceTree = "<group>"; };
+		377195F12116300D00BE35C2 /* RecBeverageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecBeverageCollectionViewCell.swift; sourceTree = "<group>"; };
+		377195F32116305400BE35C2 /* WineNotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineNotViewController.swift; sourceTree = "<group>"; };
 		37A77DFE210388D500F36E56 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsCollectionViewCell.swift; sourceTree = "<group>"; };
 		37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
@@ -129,14 +131,15 @@
 				37A77E0221038BB500F36E56 /* SearchResultsViewController.swift */,
 				3708712120EAE8630002F4D4 /* HomepageViewController.swift */,
 				37C882A920F69B8E0044F887 /* RestaurantViewController.swift */,
+				377195F32116305400BE35C2 /* WineNotViewController.swift */,
 				3708712320EAE8630002F4D4 /* Main.storyboard */,
-				375A855E2107018500085632 /* SpaghettiViewController.swift */,
 				37C882A120F316B30044F887 /* ResultsTableViewCell.swift */,
 				37C882A520F3E4BE0044F887 /* ResultsTableViewController.swift */,
 				37C882A720F3E52B0044F887 /* Result.swift */,
 				37A77DFE210388D500F36E56 /* SearchResult.swift */,
 				37C8829D20F2D9310044F887 /* CuisineImageCollectionViewCell.swift */,
 				37C882AD20F6A2CC0044F887 /* RecMealCollectionViewCell.swift */,
+				377195F12116300D00BE35C2 /* RecBeverageCollectionViewCell.swift */,
 				3754962220F2C054002F419B /* RestaurantImageCollectionViewCell.swift */,
 				37A77E002103894700F36E56 /* SearchResultsCollectionViewCell.swift */,
 				3708712620EAE8650002F4D4 /* Assets.xcassets */,
@@ -305,13 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377195F22116300D00BE35C2 /* RecBeverageCollectionViewCell.swift in Sources */,
 				3708712220EAE8630002F4D4 /* HomepageViewController.swift in Sources */,
 				37A77E0321038BB500F36E56 /* SearchResultsViewController.swift in Sources */,
 				37C882A620F3E4BE0044F887 /* ResultsTableViewController.swift in Sources */,
 				3708712020EAE8630002F4D4 /* AppDelegate.swift in Sources */,
+				377195F42116305400BE35C2 /* WineNotViewController.swift in Sources */,
 				37A77E012103894700F36E56 /* SearchResultsCollectionViewCell.swift in Sources */,
 				37C8829E20F2D9310044F887 /* CuisineImageCollectionViewCell.swift in Sources */,
-				375A855F2107018500085632 /* SpaghettiViewController.swift in Sources */,
 				37C882AA20F69B8E0044F887 /* RestaurantViewController.swift in Sources */,
 				37C882A820F3E52B0044F887 /* Result.swift in Sources */,
 				3754962320F2C054002F419B /* RestaurantImageCollectionViewCell.swift in Sources */,

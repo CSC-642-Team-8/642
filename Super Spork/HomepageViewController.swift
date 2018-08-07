@@ -18,8 +18,8 @@ class HomepageViewController: UIViewController, UICollectionViewDataSource, UICo
     var cuisineImagesArray = [UIImage(named: "Italian"),UIImage(named: "Japanese"),UIImage(named: "Mexican"),UIImage(named: "American"),UIImage(named: "Thai")]
     var cuisineTextArray = ["Italian", "Japanese", "Mexican", "American", "Thai"]
     
-    var restaurantImagesArray = [UIImage(named: "food4"),UIImage(named: "food1"),UIImage(named: "food2"),UIImage(named: "food5"),UIImage(named: "food3")]
-    var restaurantTextArray = ["Wine Not", "Oakland Grill", "La Jolie", "Angry Fish", "Mirabella"]
+    var restaurantImagesArray = [UIImage(named: "winenot1"),UIImage(named: "food1"),UIImage(named: "food2"),UIImage(named: "food5"),UIImage(named: "food3")]
+    var restaurantTextArray = ["Wine Not", "Sunset Grill", "La Jolie", "Angry Fish", "Mirabella"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
