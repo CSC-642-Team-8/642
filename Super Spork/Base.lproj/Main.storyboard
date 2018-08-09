@@ -1738,19 +1738,15 @@
                                 <rect key="frame" x="16" y="206" width="344" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jA-XL-n4c">
-                                <rect key="frame" x="114" y="507" width="155" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QcY-DU-2To">
+                                <rect key="frame" x="61" y="485" width="253" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <state key="normal" image="trackbutton"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="tNm-De-ea1" appends="YES" id="HsB-hq-vjh"/>
+                                    <outletCollection property="gestureRecognizers" destination="tNm-De-ea1" appends="YES" id="3Eh-ub-EA0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breadcrumb3" translatesAutoresizingMaskIntoConstraints="NO" id="mKb-Kj-wiT">
-                                <rect key="frame" x="72" y="72" width="229" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -1759,14 +1755,14 @@
                     <navigationItem key="navigationItem" id="YJC-8l-jlh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apP-ag-YX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="tNm-De-ea1" userLabel="Track Order Tap Gesture Recognizer">
-                    <connections>
-                        <segue destination="Ptx-Q3-xxl" kind="presentation" id="y11-Um-czi"/>
-                    </connections>
-                </tapGestureRecognizer>
                 <tapGestureRecognizer id="MUS-Jk-eyz" userLabel="Order More Tap Gesture Recognizer">
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="presentation" id="Zj6-pF-zob"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="tNm-De-ea1" userLabel="Track Order Tap Gesture Recognizer">
+                    <connections>
+                        <segue destination="Ptx-Q3-xxl" kind="presentation" id="u3y-2z-Qvs"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -3262,6 +3258,6 @@
         <segue reference="70N-rv-0q1"/>
         <segue reference="Nwp-ND-9o3"/>
         <segue reference="gJf-H6-cvG"/>
-        <segue reference="eIM-Rn-3oZ"/>
+        <segue reference="Zj6-pF-zob"/>
     </inferredMetricsTieBreakers>
 </document>
